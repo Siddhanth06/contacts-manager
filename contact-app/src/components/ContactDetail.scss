@@ -1,0 +1,31 @@
+.ContactDetail {
+  //   background-color: aqua;
+
+  .name {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+  }
+
+  .email {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  button {
+    margin-top: 2rem;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 15px 20px;
+    font-size: 1.7rem;
+    font-weight: bold;
+    background-color: #ebecf0;
+    color: rgb(255, 33, 33);
+    box-shadow: 3px 3px 11px -4px rgba(116, 116, 116, 0.7),
+      -4px -3px 10px -1px rgba(255, 255, 255, 1);
+  }
+}
